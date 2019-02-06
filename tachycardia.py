@@ -29,3 +29,11 @@ def is_tachycardic(str):
         return True
     else:
         return False
+
+
+def runcode():
+    inp = input("Please enter the word 'tachycardic:' ")
+    print(is_tachycardic(inp))
+
+if __name__ == "__main__":
+    runcode()
